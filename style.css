@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(248, 216, 216);
+    color: black;
+}
+
+.banner{
+background-color: blueviolet;
+color: black;
+padding: 20px 30px;
+font-size: 40px;
+}
+
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.3px ;
+    margin: 0;
+    opacity: 0.7;
+    background-color: rgb(158, 156, 231);
+}
+.nav li{
+    display:inline-block;
+    padding: 0px 25px 1px 25px;
+    font-size: medium;
+}
+.nav li a {
+    text-decoration: none;
+    color: white;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav li a:hover {
+    color:brown;
+    font-weight: bold;
+}
+.footer{
+    clear: both;
+    background-color: forestgreen;
+    color: white;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+}
+.footer li{
+    display:inline-block;
+    padding: 0px 25px 1px 25px;
+    font-size: medium;
+}
+.footer li a {
+    text-decoration: none;
+    color: white;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer li a:hover {
+    color:brown;
+    font-weight: bold;
+}
+table{
+    border-spacing: 0px;
+}
+th, td{
+    padding:5px 30px 5px 10px;
+    border-spacing:0px;
+    font-size: 90%;
+    margin: 0px;}
+    th, td{
+text-align: left;
+background-color: #e0e9f0;
+border-top: 1px solid #f1f8fe;
+border-bottom: 1px solid #cbd2d8;
+border-right: 1px solid #cbd2d8;
+}
+tr.head th{
+    color: #fff;
+    background-color: #90b4d6;
+    border-top: 1px solid #90b4d6;
+border-bottom: 2px solid #547ca0;
+border-right: 1px solid #749abe;
+text-align: center;
+text-shadow: -1px -1px 1px #fff;
+letter-spacing: 0.15em;
+}
+td{
+    text-shadow: 1px 1px 1px #fff;
+}
+tr.even td, tr.even th{
+    background-color: #e8eff5;
+}
+tr.head th:first-child{
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+}
+tr.head th:last-child{
+      -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-right-radius: 5px;
+
+}
+/*main content block*/
+main{
+width: 600px;
+float: left;
+margin-bottom: 10px;
+}
+/*side bar section*/
+aside{
+    width: 290px;
+    height: 482px;
+    float: right;
+    padding: 20px;
+    margin-top: 0px;
+    background-color: #90b4d6;
+}
+#student{
+    width:400px ;
+}
+.link li a {
+    
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.link li a:hover {
+    color:blue;
+    font-weight: bold;
+}
+
